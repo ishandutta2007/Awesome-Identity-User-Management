@@ -30,59 +30,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global Identity and Access Management (IAM) market is estimated at **$24B–$30B in 2025–2026** and continues to grow at double-digit CAGR driven by Zero Trust initiatives, cloud migration, and AI workload security. The sector is **moderately concentrated at the top with a fragmented fringe**: tech giants and established pure-plays (Microsoft, Okta/Auth0, Ping Identity) capture dominant enterprise market share, while emerging sub-segments (B2B SaaS auth, passkeys, non-human/agent identities, and open-source self-hosting) remain highly competitive and fragmented across specialized innovators.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Auth0 (Okta)](https://auth0.com/)**  
-
-  The developer-friendly identity platform, now part of Okta. Offers extensibility via Actions/Rules, extensive SDKs, and social/enterprise connections. **Pricing**: free tier for 25K MAUs; paid plans scale with MAU and features. Proprietary, cloud-only.
-
-
-
-- **[Okta](https://www.okta.com/)**  
-
-  Enterprise workforce and customer identity platform. Strong on lifecycle management, SSO, and governance for large organizations. Acquired Auth0 to strengthen CIAM. Enterprise-tier pricing.
-
-
-
-- **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)**  
-
-  Microsoft's cloud identity provider, tightly integrated with Azure, Office 365, and Windows. Includes Conditional Access and identity governance. Free tier with Azure AD; premium tiers for advanced features.
-
-
-
-- **[Ping Identity (ForgeRock)](https://www.pingidentity.com/)**  
-
-  Enterprise IAM platform after the Ping-ForgeRock merger. **Pricing**: PingOne for Customers from ~$35K/year; PingOne for Workforce from $3/user/month (5,000 user minimum) . Strong on AI-driven risk assessment, identity governance, and decentralized identity.
-
-
-
-- **[JumpCloud](https://jumpcloud.com/)**  
-
-  Directory-as-a-Service platform for workforce identity, device management, and SSO. Popular with SMBs and mid-market for consolidating AD/LDAP, MDM, and SSO into one platform. Per-user pricing.
-
-
-
-- **[OneLogin (One Identity)](https://www.onelogin.com/)**  
-
-  Cloud-based SSO and identity management platform. Acquired by One Identity. Offers workforce SSO, MFA, and provisioning. Per-user pricing.
-
-
-
-- **[WorkOS](https://workos.com/)**  
-
-  Developer-focused platform specifically for **B2B SaaS enterprise features**—SSO (SAML/OIDC), Directory Sync (SCIM), Audit Logs, and Admin Portal. Removes the burden of building enterprise SSO for each customer . Usage-based pricing.
+| Company / Product | Size / Valuation (Descending) | Starting Tier Pricing | Free Tier / Trial Limits | Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | **~$3.94T Market Cap** (Microsoft parent; $20B+ annual security business) | **$6.00 / user / month** (Entra ID P1, billed annually) | **Permanent free tier** included with Azure/M365 accounts; capped at 50,000 directory objects (expandable to 300,000 objects with verified custom domain), Security Defaults MFA only, no SLA, and no Conditional Access. | Ubiquitous enterprise cloud identity tightly integrated with Azure, Office 365, and Windows; conditional access and governance. |
+| **[Okta](https://www.okta.com/)** | **~$33B Market Cap** (~$2.9B ARR) | **$6.00 / user / month** (Starter Suite; requires $1,500/year contract minimum) | **30-day free trial**; includes access to workforce identity features and Okta Workflows capped at 5 active flows and 2 million step executions during the trial. | Enterprise workforce identity leader with universal directory, SSO, adaptive MFA, lifecycle management, and governance. |
+| **[Auth0 (Okta)](https://auth0.com/)** | **$6.5B Acquisition Valuation** (acquired by Okta; part of Customer Identity Cloud) | **$35.00 / month** (B2C Essentials up to 500 MAUs) / **$150.00 / month** (B2B Essentials up to 500 MAUs) | **Permanent free tier** up to **25,000 Monthly Active Users (MAUs)**; includes unlimited social logins, passwordless/passkeys, up to 5 organizations, and 1 custom domain (no custom DB or separate dev/prod environments). | Developer-friendly CIAM with extensible Actions/Rules, deep SDK ecosystems, and seamless social/enterprise auth. |
+| **[Ping Identity (ForgeRock)](https://www.pingidentity.com/)** | **$2.8B Acquisition Valuation** (combined with ForgeRock by Thoma Bravo; ~$800M ARR) | **$3.00 / user / month** (PingOne Workforce Essential, 5,000-user minimum) / **$35,000 / year** (PingOne Customer Essential base package) | **30-day free trial**; capped at up to 1,000 active identities and 5 sandbox environments with standard rate/messaging limits. | Enterprise-grade workforce and CIAM platform with AI-driven risk scoring, decentralized identity, and hybrid deployment support. |
+| **[JumpCloud](https://jumpcloud.com/)** | **$2.6B Valuation** (Series F; ~$150M–$200M ARR) | **$9.00 / user / month** (Device Management, billed annually) / **$11.00 / user / month** (SSO bundle, billed annually) | **30-day free trial** for new sign-ups with full-platform access; permanent free tier was discontinued for accounts created after Feb 1, 2024. | Cloud Directory-as-a-Service uniting cross-OS device management (MDM), LDAP/Radius, and SSO for SMBs and mid-market teams. |
+| **[WorkOS](https://workos.com/)** | **$2.0B Valuation** (Series C; ~$30M ARR) | **$125.00 / connection / month** (SSO 1–15 connections; Directory Sync/SCIM billed separately at $125/connection/month) | **Permanent free tier** for core auth (AuthKit) up to **1,000,000 Monthly Active Users (MAUs)**; includes user management, social auth, MFA, passkeys, and free staging environments (enterprise SSO/SCIM require paid connections). | Developer platform designed specifically for B2B SaaS enterprise readiness (Enterprise SAML/OIDC SSO, SCIM Directory Sync, and Admin Portals). |
+| **[OneLogin (One Identity)](https://www.onelogin.com/)** | **~$500M Est. Acquisition Valuation** (acquired by One Identity / Quest Software; ~$60M estimated ARR) | **$4.00 / user / month** (Advanced Plan, billed annually) | **30-day free trial**; includes full access to Cloud Directory, desktop/mobile SSO, MFA, VPN integration, and standard security reporting policies. | Cloud SSO and identity management providing directory sync, smart MFA, and workforce provisioning across enterprise SaaS suites. |
 
 
 
