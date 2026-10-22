@@ -8,7 +8,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
 <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Identity-User-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-User-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Identity-User-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-User-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Identity-User-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-User-Management?style=for-the-badge&logo=github&color=teal" alt="GitHub Forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Identity-User-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Identity-User-Management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /></a>
@@ -71,47 +71,47 @@ Below is a detailed comparison of market-leading managed Identity-as-a-Service (
 
 *Self-hosted IAM gives organizations complete data sovereignty, predictable infrastructure costs, zero per-MAU scaling taxes, and full auditability.*
 
-All repositories below are ranked and sorted in **descending order by GitHub star count**. Each badge is styled with `style=social` and `color=white`, linking directly to that repository's stargazers page:
+All repositories below are ranked and sorted in **descending order by GitHub Stars_Count**. Each badge is styled with `style=social` and `color=white`, linking directly to that repository's stargazers page:
 
 ### 🏆 Tier 1: Enterprise & Cloud-Native Platforms (>15,000 Stars)
 
 1. **[Keycloak](https://github.com/keycloak/keycloak)**  
-   [![GitHub stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)  
    **The open-source IAM standard.** Red Hat-backed CNCF project with the broadest protocol support in the industry: OpenID Connect (OIDC), OAuth 2.0, SAML 2.0, and LDAP/Kerberos federation.  
    - **Strengths**: Closest feature parity to commercial legacy platforms (ForgeRock, Ping); battle-tested clustering, fine-grained access management, and enterprise identity brokering.  
    - **Trade-offs**: Java/Quarkus runtime is memory-heavy; custom UI theming is notoriously complex compared to modern headless stacks; operational burden for clustering upgrades.  
    - **Best For**: Large enterprises requiring comprehensive standard compliance and teams with existing Java/Kubernetes operational expertise.
 
 2. **[Authelia](https://github.com/authelia/authelia)**  
-   [![GitHub stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)  
    **The reverse-proxy authentication specialist.** Go-based forward-authentication companion designed to sit in front of reverse proxies like Traefik, Nginx, Caddy, HAProxy, and Envoy.  
    - **Strengths**: Lightweight, fast, OpenID Certified, and post-quantum cryptography ready. Seamlessly secures internal services with 2FA/MFA (TOTP, WebAuthn/Passkeys, Duo) and file-based or LDAP/SQL user databases.  
    - **Trade-offs**: Not an all-in-one general IdP for SaaS user management; limited SAML identity provider functionality.  
    - **Best For**: Homelabs, internal developer tooling, and self-hosted environments that need reverse-proxy access control without deploying a heavy identity server.
 
 3. **[NextAuth.js (Auth.js)](https://github.com/nextauthjs/next-auth)**  
-   [![GitHub stars](https://img.shields.io/github/stars/nextauthjs/next-auth?style=social&color=white)](https://github.com/nextauthjs/next-auth/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/nextauthjs/next-auth?style=social&color=white)](https://github.com/nextauthjs/next-auth/stargazers)  
    **The ubiquitous TypeScript/JavaScript authentication framework.** Complete open-source authentication library designed for Next.js, SvelteKit, Express, and modern full-stack web applications.  
    - **Strengths**: Massive ecosystem; built-in connectors for 80+ OAuth providers; native support for JWT sessions, database sessions (Prisma, Drizzle, TypeORM), and WebAuthn.  
    - **Trade-offs**: Code-level library rather than a standalone IdP server; you manage your own database migrations and user administration interface.  
    - **Best For**: Full-stack JavaScript and TypeScript teams building web apps who want complete code ownership over their session layer.
 
 4. **[Authentik](https://github.com/goauthentik/authentik)**  
-   [![GitHub stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers)  
    **The modern alternative with visual ergonomics.** Python/Go container-native IdP featuring a powerful **visual flow engine** to design arbitrary authentication, enrollment, and recovery pipelines.  
    - **Strengths**: Markedly superior admin dashboard and UI theming compared to Keycloak; native support for OIDC, SAML, LDAP outposts, proxy forward auth, and RADIUS outposts; clean MIT core.  
    - **Trade-offs**: Younger community and ecosystem than Keycloak; flow engine has a conceptual learning curve.  
    - **Best For**: Teams wanting self-hosted IAM with modern ergonomics, flexible custom logic flows, and built-in proxy outposts.
 
 5. **[ZITADEL](https://github.com/zitadel/zitadel)**  
-   [![GitHub stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers)  
    **The cloud-native multi-tenant IdP.** Go-based identity platform engineered with **turnkey multi-tenancy** (instances, organizations, and projects) and an **event-sourced architecture**.  
    - **Strengths**: Built-in support for B2B SaaS tenancy, passwordless passkeys/FIDO2, audit trail event streaming, and custom TypeScript Actions.  
    - **Trade-offs**: Smaller integration catalog than 10-year-old incumbents; AGPL-3.0 copyleft license must be evaluated for specific embedded commercial distributions.  
    - **Best For**: Modern B2B SaaS applications requiring frictionless multi-tenant organization switching and cloud-native Kubernetes deployment.
 
 6. **[SuperTokens](https://github.com/supertokens/supertokens-core)**  
-   [![GitHub stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers)  
    **The modular developer CIAM architecture.** Open-source alternative to Auth0, Firebase Auth, and AWS Cognito, architected into a core backend service coupled with pre-built, customizable frontend SDK widgets (React, Vue, Angular).  
    - **Strengths**: Modular recipe architecture (Session management, Social login, EmailPassword, Passwordless, User Roles, Multi-Tenancy); end-to-end anti-CSRF token rotation; exceptional developer docs.  
    - **Trade-offs**: Requires hosting both the SuperTokens core daemon and mounting their SDK handlers within your app API backend.  
@@ -122,49 +122,49 @@ All repositories below are ranked and sorted in **descending order by GitHub sta
 ### 🚀 Tier 2: Developer CIAM & Federation Engines (<15,000 Stars)
 
 7. **[Logto](https://github.com/logto-io/logto)**  
-   [![GitHub stars](https://img.shields.io/github/stars/logto-io/logto?style=social&color=white)](https://github.com/logto-io/logto/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/logto-io/logto?style=social&color=white)](https://github.com/logto-io/logto/stargazers)  
    **The modern, developer-first alternative to Auth0.** TypeScript/Node.js based customer identity solution with a stunning administration console, sign-in experience builder, and multi-tenant support.  
    - **Strengths**: OIDC/OAuth 2.0 certified; passkeys; organization management; role-based access control (RBAC); native multi-language SDKs (React, Next.js, iOS, Android, Flutter).  
    - **Trade-offs**: Relatively newer project compared to Keycloak.  
    - **Best For**: Startups and product teams looking for an Auth0-equivalent developer UX that can be self-hosted via Docker or deployed to cloud infra.
 
 8. **[Casdoor](https://github.com/casdoor/casdoor)**  
-   [![GitHub stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)  
    **The versatile Go-based UI-first IdP with MCP support.** Apache-2.0 licensed IAM platform supporting OAuth 2.0/OIDC, SAML, CAS, LDAP server, RADIUS, and **Model Context Protocol (MCP) server integration** for AI agent auth.  
    - **Strengths**: Out-of-the-box web UI; built-in connectors for 70+ social and enterprise providers (including Google, GitHub, WeChat, DingTalk, Lark); native Casbin authorization engine.  
    - **Trade-offs**: Community documentation is lighter in some enterprise edge-cases; fast-evolving codebase.  
    - **Best For**: Teams needing a lightweight Go-based IdP with wide international identity provider support and cutting-edge AI/MCP capabilities.
 
 9. **[Ory Kratos](https://github.com/ory/kratos)** *(Part of the [Ory Network](https://github.com/ory))*  
-   [![GitHub stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)  
    **The headless, API-first identity & user management engine.** Go-based headless identity primitive providing user registration, login, profile management, MFA, and recovery via clean REST APIs.  
    - **Strengths**: Completely headless—gives you 100% control over UX/UI branding without iframe or redirect hacks; composable with **Ory Hydra** (OAuth 2.0/OIDC server), **Ory Keto** (Zanzibar authorization), and **Ory Oathkeeper** (Identity proxy).  
    - **Trade-offs**: "Bring Your Own UI"—requires software engineering effort to build and maintain the frontend auth interfaces.  
    - **Best For**: Microservice architectures and engineering teams requiring custom login UX with headless API-driven identity pipelines.
 
 10. **[Dex](https://github.com/dexidp/dex)**  
-    [![GitHub stars](https://img.shields.io/github/stars/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers)  
     **The lightweight OpenID Connect pluggable federator.** CNCF sandbox project written in Go acting as an identity broker between apps and backend user directories (SAML, LDAP, GitHub, GitLab, Google).  
     - **Strengths**: Extremely light footprint; rock-solid reliability; widely adopted across Kubernetes ecosystems and enterprise infrastructure to provide OIDC authentication to clusters.  
     - **Trade-offs**: Not a full-fledged user database (it acts as a connector/broker, delegating storage to other directories).  
     - **Best For**: Kubernetes cluster auth federation and small services requiring clean OIDC proxying into enterprise directories.
 
 11. **[Lucia](https://github.com/lucia-auth/lucia)**  
-    [![GitHub stars](https://img.shields.io/github/stars/lucia-auth/lucia?style=social&color=white)](https://github.com/lucia-auth/lucia/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/lucia-auth/lucia?style=social&color=white)](https://github.com/lucia-auth/lucia/stargazers)  
     **The minimalist session and auth toolkit.** A lightweight, unopinionated TypeScript resource and abstraction library focused on session handling and authentication primitives without bloat.  
     - **Strengths**: Gives complete insight into session mechanics; zero runtime magic; database adapters across SQLite, PostgreSQL, MySQL, and MongoDB.  
     - **Trade-offs**: Provides learning guides and minimal helpers rather than an autonomous IdP server.  
     - **Best For**: Developers who want to build and understand their own lightweight session authentication from first principles.
 
 12. **[node-oidc-provider](https://github.com/panva/node-oidc-provider)**  
-    [![GitHub stars](https://img.shields.io/github/stars/panva/node-oidc-provider?style=social&color=white)](https://github.com/panva/node-oidc-provider/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/panva/node-oidc-provider?style=social&color=white)](https://github.com/panva/node-oidc-provider/stargazers)  
     **The OpenID Certified OAuth 2.0 / OIDC Server for Node.js.** Maintained by Filip Skokan, this is the gold-standard OpenID Certified specification implementation in JavaScript/Node.js.  
     - **Strengths**: Meticulous standards conformance with OAuth 2.0, OAuth 2.1, OIDC, FAPI, and PKCE; highly extensible mounting inside Express, Fastify, or Koa.  
     - **Trade-offs**: Developer library requiring implementation of interaction controllers and persistence stores.  
     - **Best For**: Node.js backends needing to expose a strictly certified OpenID Connect identity provider service.
 
 13. **[WSO2 Identity Server](https://github.com/wso2/product-is)**  
-    [![GitHub stars](https://img.shields.io/github/stars/wso2/product-is?style=social&color=white)](https://github.com/wso2/product-is/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/wso2/product-is?style=social&color=white)](https://github.com/wso2/product-is/stargazers)  
     **The enterprise API-driven CIAM platform.** Apache-2.0 licensed, enterprise-grade IAM platform optimized for complex integration scenarios, API management, and federation across hybrid enterprise estates.  
     - **Strengths**: Deep integration with WSO2 API Manager; adaptive risk-based authentication; federated access across legacy directories; extensive compliance capabilities.  
     - **Trade-offs**: Java enterprise footprint; steeper configuration and administrative curve.  
@@ -207,7 +207,7 @@ Contributions are warmly welcomed! Help make this the most comprehensive and up-
 3. 📝 **Add/edit** entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Identity-User-Management/README.md).
    - Keep descriptions factual and technically precise.
    - For SaaS additions, provide exact starting pricing, free tier/trial limits, and company scale.
-   - For open-source additions, include the official GitHub star badge with `style=social&color=white` linking to `/stargazers`.
+   - For open-source additions, include the official GitHub Stars_Badge with `style=social&color=white` linking to `/stargazers`.
 4. 🚀 **Commit** changes with clear messages.
 5. 📬 **Submit** a Pull Request with a short summary of changes.
 
